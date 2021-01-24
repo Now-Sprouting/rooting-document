@@ -1,0 +1,44 @@
+{
+  "id": "2345749",
+  "name": "rooting-document",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2869198",
+      "name": "太阳",
+      "font_class": "taiyang",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "2916867",
+      "name": "猫头鹰",
+      "font_class": "maotouying",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "3793162",
+      "name": "太阳",
+      "font_class": "taiyang1",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "5456721",
+      "name": "月亮",
+      "font_class": "yueliang",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "17200470",
+      "name": "GitHub",
+      "font_class": "GitHub",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}
