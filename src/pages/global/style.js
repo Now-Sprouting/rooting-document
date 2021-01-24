@@ -26,6 +26,9 @@ ins {
   padding: 0;
   margin: 0;
 }
+h2 {
+  font-size: 20px;
+}
 
 body {
   font-size: 16px;
@@ -33,6 +36,33 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: ${prpos => prpos.theme === 'light' ? '#FFFFFF' : '#212121'};
 }
+a {
+  color: ${prpos => prpos.theme === 'light' ? 'rgba(0, 0, 0, 0.87)' : '#FFFFFF'};
+}
+body::-webkit-scrollbar {
+    width: 12px;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: ${prpos => prpos.theme === 'light' ? '#c1c1c1' : 'rgba(51,51,51,0.8)'};
+}
+body::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #F1F1F1;
+}
+
+.sideContent::-webkit-scrollbar {
+    width: 12px;
+}
+.sideContent::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: ${prpos => prpos.theme === 'light' ? '#c1c1c1' : 'rgba(51,51,51,0.8)'};
+}
+.sideContent::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #F1F1F1;
+}
+
 /* 字体图标 */
 .icon {
   width: 1em;
