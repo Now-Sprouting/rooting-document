@@ -5,7 +5,7 @@ export const SidebarWrapper = styled.div`
     z-index: 9;
     top: 64px;
     box-sizing: border-box;
-    padding: 40px 0px 104px 20px;
+    padding: 40px 0px 104px 30px;
     width: 280px;
     height: 100vh;
     overflow-y: auto;

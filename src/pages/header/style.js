@@ -11,7 +11,7 @@ export const HeaderWrapper = styled.div`
     left: 0;
     width: 100%;
     height: 64px;
-    padding: 0 40px;
+    padding: 0 30px;
     color: ${prpos => prpos.theme === 'light' ? '#1976D2' : '#fff'};
     background-color: ${prpos => prpos.theme === 'light' ? '#fff' : '#333333'};
     box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
