@@ -26,8 +26,13 @@ ins {
   padding: 0;
   margin: 0;
 }
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
 h2 {
   font-size: 20px;
+  font-weight: bold;
 }
 
 body {

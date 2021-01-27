@@ -14,7 +14,7 @@ export default memo(function Header(props) {
                         className="icon"
                         aria-hidden="true"
                         color={mode.theme === 'light' ? '#1976D2' : 'white'}
-                        font-size='50px'>
+                        fontSize='50px'>
                         <use xlinkHref="#icon-maotouying1"></use>
                     </svg>
                     <h1>Rooting-UI</h1>
@@ -24,7 +24,7 @@ export default memo(function Header(props) {
                         <svg
                             className="icon"
                             aria-hidden="true"
-                            font-size='30px'
+                            fontSize='30px'
                             onClick={() => { toggleTheme(mode) }}>
                             <use xlinkHref="#icon-taiyang1"></use>
                         </svg>}
@@ -32,7 +32,7 @@ export default memo(function Header(props) {
                         <svg
                             className="icon"
                             aria-hidden="true"
-                            font-size='30px'
+                            fontSize='30px'
                             color='#F7DDAD
                     ' onClick={() => { toggleTheme(mode) }}>
                             <use xlinkHref="#icon-yueliang1"></use>
@@ -40,7 +40,7 @@ export default memo(function Header(props) {
                     <svg
                         className="icon"
                         aria-hidden="true"
-                        font-size='30px'
+                        fontSize='30px'
                         color={mode.theme === 'light' ? 'black' : 'white'}>
                         <use xlinkHref="#icon-git"></use>
                     </svg>
