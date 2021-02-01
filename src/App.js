@@ -28,7 +28,6 @@ export default memo(function App() {
             </ContentWrapper>
           </HashRouter>
         </MainWrapper>
-
       </ThemeContext.Provider>
     </>
   );

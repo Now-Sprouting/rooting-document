@@ -1,19 +1,21 @@
 import React, { memo } from 'react'
-import { Button as DButton } from 'rooting-ui'
 
+import BtnType from './attributes/btnType'
+import Size from './attributes/size'
+import Disable from './attributes/disable'
 import { ButtonContentWrapper } from './style'
+import { useH1Title, useH2Title } from '../../hooks/useTitle'
 
-export default memo(function Button() {
+
+export default memo(function Button(props) {
     return (
         <ButtonContentWrapper>
-            <h1>Button</h1>
-            <DButton>Default</DButton>
-            <DButton btnType='default' size='large' onClick={(e) => { console.log(e.target, 1) }}>Default</DButton>
-            <DButton btnType='danger'>Danger</DButton>
-            <DButton btnType='primary' size='small'>Primary</DButton>
-            <DButton btnType='primary' size='small' disabled={true}>Disable</DButton>
-            <DButton btnType='link' href='http://www.baidu.com'>Link</DButton>
-            <DButton btnType='link' href='http://www.baidu.com' disabled={true}>Link</DButton>
+            {useH1Title('Button', '页面中最常用的的按钮元素，适合于完成特定的交互，支持 HTML button 和 a 链接 的所有属性')}
+            {useH2Title(`基本使用`, ``)}
+            <BtnType/>
+            <Size/>
+            <Disable/>
         </ButtonContentWrapper>
     );
 })
+
